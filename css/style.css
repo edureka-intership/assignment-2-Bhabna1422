@@ -40,15 +40,16 @@ ul li {
 }
 .main-logo {
     background-color: #fff;
-    width: 147px;
-    height: 147px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
     border-radius: 100%;
 }
 .main-logo h1{
-    font-size: 4.7rem;
+    font-size: 3.6rem;
     color: #EB2929;
-    padding-top: 22px;
+    padding-top: 13px;
+    font-weight: 600;
 }
 .banner-form {
     margin-left: 189px;
@@ -79,6 +80,7 @@ i.fa.fa-search {
     color: #fff;
     text-align: center;
     padding-top: 1%;
+    font-weight: 600;
 }
 h3{
     margin-top: 0px !important;
@@ -92,6 +94,16 @@ h3{
 }
 .food-sec-heading{
   padding: 3rem 0px 2.3rem 0px;
+}
+.food-sec-heading h3{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+    color: #192F60;
+}
+.food-sec-heading p{
+    color: #8C96AB;
 }
 .item1 {
     background-color: #fff;
@@ -128,6 +140,24 @@ h3{
         margin-left: 0px;
         margin-top: 0px;
     }
-    
+    .media-pt{
+       padding-top: 14px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item-description p{
+        font-size: 16px;
+    }
+    .food-sec-heading {
+        padding: 3rem 0px 1rem 0px;
+    }
+    .container{
+        width: 90% !important;
+    }
+    .banner-heading {
+        margin-top: 26px;
+    }
     
 }
